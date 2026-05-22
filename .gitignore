@@ -1,0 +1,10 @@
+# Airflow local runtime
+logs/
+.env
+config/airflow.cfg
+config/webserver_config.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/

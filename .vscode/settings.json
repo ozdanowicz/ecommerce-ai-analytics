@@ -1,0 +1,4 @@
+{
+  "dbt.profilesDirOverride": "${workspaceFolder}/dbt/.dbt",
+  "dbt.dbtProjectDirOverride": "${workspaceFolder}/dbt"
+}

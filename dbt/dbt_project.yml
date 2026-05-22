@@ -1,0 +1,26 @@
+name: dbt_bq_ecommerce
+version: '1.0'
+
+config-version: 2
+
+profile: dbt_ecommerce_profile
+
+model-paths: [models]
+seed-paths: [seeds]
+test-paths: [tests]
+analysis-paths: [analyses]
+macro-paths: [macros]
+snapshot-paths: [snapshots]
+
+models:
+  dbt_bq_ecommerce:
+
+    ecommerce_ai_stg:
+      +materialized: view
+      +schema: ecommerce_ai_stg
+    ecommerce_ai_mart:
+      +materialized: table
+      +schema: ecommerce_ai_mart
+    ecommerce_ai_int:
+      +materialized: view
+      +schema: ecommerce_ai_int

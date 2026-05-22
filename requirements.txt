@@ -1,0 +1,12 @@
+pandas
+requests
+dbt-core
+dbt-postgres
+dbt-bigquery
+google-cloud-bigquery
+pyarrow
+python-dotenv
+openai
+pydantic
+tqdm
+instructor

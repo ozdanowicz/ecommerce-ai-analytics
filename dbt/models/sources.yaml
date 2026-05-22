@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Source for raw order data from ecommerce platform."
+    database: ecommerce-ai-analytics
+    schema: ecommerce_ai_raw
+    tables:
+      - name: raw_orders
+        description: "Raw snapshot of order data."
+      - name: raw_order_items
+        description: "Raw snapshot of order items."
+      - name: raw_users
+        description: "Raw snapshot of customer data."
+      - name: raw_support_tickets
+        description: "Raw snapshot of customer support tickets."
+      - name: raw_products
+        description: "Raw snapshot of product data."
+      - name: raw_ticket_extraction_attempts
+        description: "Raw snapshot of LLM extraction attempts for support tickets."
+  

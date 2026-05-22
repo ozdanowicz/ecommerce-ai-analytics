@@ -1,1 +1,1 @@
-# ecommerce-ai-analytics
+# Cloud Data Engineering & AI Analytics Platform for E-commerce
